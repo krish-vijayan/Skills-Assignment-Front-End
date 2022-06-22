@@ -20,7 +20,7 @@ function App() {
             <div className="App">
               <header className="App-header">
                 <Routes>
-                <Route exact path="/home" element={<TitlePage/>}/>
+                <Route exact path="/" element={<TitlePage/>}/>
                 <Route exact path="/krish" element={<>
                     <Texture/>
                     <Instructions/>
