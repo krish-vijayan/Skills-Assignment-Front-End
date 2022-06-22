@@ -1,0 +1,81 @@
+.Title-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+  .Title{
+    font-family: Roboto;
+    position:fixed;
+    top:0%;
+    left:30%;
+  
+  }
+  .Title-krish {
+    font-family: Roboto;
+    position:fixed;
+    width: 200px;
+    height: wrap;
+    font-size: 50px;
+    border-radius: 10px;
+    top:15%;
+    left:42%;
+    transition: transform .2s;    
+  }
+  .Title-brandon {
+    font-family: Roboto;
+    position:fixed;
+    width: 200px;
+    height: wrap;
+    font-size: 50px;
+    border-radius: 10px;
+    top:30%;
+    left:42%;
+    
+  }
+  .Title-serena {
+    font-family: Roboto;
+    position:fixed;
+    width: 200px;
+    height: wrap;
+    font-size: 50px;
+    border-radius: 10px;
+    top:45%;
+    left:42%;
+    
+  }
+  .Title-taeyun {
+    font-family: Roboto;
+    position:fixed;
+    width: 200px;
+    height: wrap;
+    font-size: 50px;
+    border-radius: 10px;
+    top:60%;
+    left:42%;
+    
+  }
+  .Title-parsh {
+    font-family: Roboto;
+    position:fixed;
+    width: 200px;
+    height: wrap;
+    font-size: 50px;
+    border-radius: 10px;
+    top:500px;
+    top:75%;
+    left:42%;
+  }
+
+  .glow-button-title:hover {
+    color: rgb(61, 76, 245);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+  .grow:hover{
+    transform:scale(1.7);
+  }
