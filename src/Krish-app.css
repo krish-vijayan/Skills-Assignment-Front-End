@@ -1,4 +1,4 @@
-.App {
+.Krish-App {
   text-align:center;  
   width: 100%;
   max-width: 1280px;
@@ -70,6 +70,9 @@
 }
 .Linkedin-button:hover {
   width: 200px;
+}
+.Home-button:hover {
+  width:200px;
 }
 
 .Name-button {
@@ -181,6 +184,19 @@
   transition: width 0.5s;
   color:transparent;
 }
+.Home-button {
+  position: absolute;
+  font-family:Roboto;
+  font-weight: bold;
+  font-size:40px;
+  left:84%;
+  bottom:15%;
+  width:0px;
+  height:wrap;
+  background:grey;
+  transition: width 0.5s;
+  color:transparent;
+}
 .Program {
   font-family: Roboto;
   color: black;
@@ -226,7 +242,7 @@
   border: 4px solid black;  
 }
 
-.App-header {
+.Krish-App-header {
   background-color: transparent;
   min-height: 100vh;
   display: flex;
