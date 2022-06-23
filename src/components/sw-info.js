@@ -32,7 +32,7 @@ function Pfp() {
 
      const settingPfp = () => {
         setPfp(serena.pfp);
-        setC1("Pfp")    
+        setC1("Serena-Pfp")    
         setCounter(counter + 1);
         if (counter > 0) {
             setCounter(0);
@@ -149,7 +149,7 @@ function Linkedin(){
         setLinkedin(serena.qr);
         setLink(serena.link);
         setCounter(counter + 1);
-        setC1("Linkedin-qr");
+        setC1("Serena-Linkedin-qr");
        
 
         if (counter > 0){
