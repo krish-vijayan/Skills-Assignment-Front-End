@@ -1,0 +1,118 @@
+.Brandon-App {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Brandon-App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.Brandon-button:hover {
+  color: white;
+  box-shadow: 0 5px 15px rgba(131, 100, 219, 0.4);
+}
+
+.Brandon-button {
+  font-size:40px;
+  width:300px;
+  height:250px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background:rgb(119, 139, 155);
+  transition: width 0.5s;
+}
+
+/* //////////////////// Components ////////////////// */
+
+.Brandon-Test {
+  background-color: black;
+}
+
+.Brandon-Photo {
+  position: absolute;
+  width: 500;
+  height: 500;
+  left: 100px;
+  top: 275px;
+}
+
+.Brandon-socials {
+  position: absolute;
+  width: 500;
+  height: 500;
+  left: 800px;
+  top: 350px;
+}
+
+.Brandon-wrapper {
+  position: absolute;
+  background: black;
+  border: 1px solid black;
+  top: 25px;
+  left: 1000px;
+  height: 1150px;
+  width: 1200px;
+}
+
+.Brandon-Name-button {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+.Brandon-Interests-button {
+  position: absolute;
+  left: 30px;
+  top: 315px;
+}
+
+.Brandon-School-button {
+  position: absolute;
+  left: 30px;
+  bottom: 315px;
+}
+
+.Brandon-Program-button {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+}
+
+
+.Brandon-h1 {
+  color: white;
+  position:absolute;
+  left: 300px;
+  top:1px;
+}
+
+.Brandon-Name {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+}
+
+.Brandon-Interests {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+}
+
+.Brandon-School {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+}
+
+.Brandon-Program {
+  position: absolute;
+  left: 375px;
+  top: 30px;
+}
+
+
+
+
