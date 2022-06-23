@@ -10,7 +10,7 @@ import SerenaApp from './serena-app';
 
 ////////////////////////////////////////////////////////////////
 //Taeyun
-
+import TaeyunApp from './taeyun-app';
 ///////////////////////////////////////////////////////////////
 //Parsh
 
@@ -28,6 +28,7 @@ function App() {
       <KrishApp/>
       <BrandonApp/>
       <SerenaApp/>
+      <TaeyunApp/>
 
     </>
     
