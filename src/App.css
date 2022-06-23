@@ -13,11 +13,10 @@
 .Name {
   font-family:Roboto;
   color:black;
-  font-size: 70px;
+  font-size: 80px;
   position:absolute;
   bottom:80%;
-  left:35%;
-  
+  left:34%;
 }
 .School {
   font-family:Roboto;
@@ -49,7 +48,7 @@
 }
 .glow-button:hover {
   color: rgb(255, 255, 255);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  box-shadow: 0 10px 20px rgba(192, 215, 252, 2);
 }
 .Name-button:hover {
   width: 200px;
