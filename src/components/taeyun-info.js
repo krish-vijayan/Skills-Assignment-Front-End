@@ -1,5 +1,5 @@
-import MemberApi from './member-api-call';
 import React, {useState, useEffect} from 'react';
+import MemberApi from './member-api-call'
 
 function Name() {
     const taeyun = MemberApi(3);
@@ -169,5 +169,11 @@ function Linkedin(){
     );
 }
 
+function Background () {
+    return (
+        <div className="Background"></div>
+    )
+}
 
-export { Name, Pfp, MySchool, Hobbies, Interests, Program, Linkedin };
+
+export { Name, Pfp, MySchool, Hobbies, Interests, Program, Linkedin, Background };

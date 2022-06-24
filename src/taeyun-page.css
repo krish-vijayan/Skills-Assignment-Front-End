@@ -1,4 +1,5 @@
-.Krish-App {
+.App {
+  text-align:center;
   text-align:center;  
   width: 100%;
   max-width: 1280px;
@@ -10,45 +11,36 @@
   src: url(../public/fonts/Roboto-Thin.ttf);
 
 }
-.Background {
-  background-color: #C2DFFF;
-  width: 2000px;
-  height:1100px;
-  position:absolute;
-  top:0px;
-  left:0px;
-}
-
-
 .Name {
   font-family:Roboto;
   color:black;
-  font-size: 80px;
-  position:absolute;
-  bottom:80%;
-  left:34%;
+  font-size: 70px;
+  position: absolute;
+  bottom:800px;
+  left:600px;
+  
 }
 .School {
   font-family:Roboto;
   color:black; 
   position: absolute;
-  font-size: 70px;
-  bottom: 35%;
-  left:28%;
+  font-size: 50px;
+  bottom: 400px;
+  left:550px;
 }
 .School-logo {
-  position:absolute;
-  width:30%;
-  left:30%;
-  bottom:15%;
+  position: absolute;
+  width:400px;
+  left: 570px;
+  bottom:180px;
   
 }
 .Linkedin-qr {
   position:absolute;
   width:150px;
   height:150px;
-  left:1%;
-  top:1%;
+  left: 1340px;
+  top:20px;
   border: 3px solid black;
   transition: transform .2s;
   
@@ -57,8 +49,8 @@
   transform:scale(1.2);
 }
 .glow-button:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: 0 10px 20px rgba(192, 215, 252, 2);
+  color: rgb(254, 254, 254);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 .Name-button:hover {
   width: 200px;
@@ -81,139 +73,125 @@
 .Linkedin-button:hover {
   width: 200px;
 }
-.Home-button:hover {
-  width:200px;
-}
 
 .Name-button {
   position:absolute;
   font-family:Roboto;
   font-size:40px;
-  font-weight: bold;
-  left:84%;
-  bottom:85%;
+  left:250px;
+  bottom:650px;
   width:0px;
   height:wrap;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
   transition: width 0.5s;
-  background:grey;
   color:transparent;
-
 }
 
 
 .Photo-button {
-  font-weight: bold;
-
   font-family: Roboto;
   position: absolute;
   font-size:40px;
-  left:84%;
-  bottom:75%;
+  bottom: 590px;
+  left: 250px;
   width:0px;
   height:wrap;
   width:0px;
   height:wrap;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
   transition: width 0.5s;
-  background:grey;
   color:transparent;
-
 }
 .School-button {
   font-family: Roboto;
-  font-weight: bold;
   position:absolute;
   font-size:40px;
-  left:84%;
-  bottom:65%;
+  left:250px;
+  bottom: 530px;
+  width:230px;
   width:0px;
   height:wrap;
-  background:grey;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
   transition: width 0.5s;
   color:transparent;
-
 }
 
-.Hobby-button {
-  font-family: Roboto;
-  font-weight: bold;
-  position:absolute;
-  font-size:40px;
-  left:84%;
-  bottom:55%;
-  width:0px;
-  height:wrap;
-  background:grey;
-  transition: width 0.5s;
-  color:transparent;
-
-}
-
-.Interest-button {
-  font-weight: bold;
-  position:absolute;
-  font-family: Roboto;
-  font-size:40px;
-  left:84%;
-  bottom:45%;
-  width:0px;
-  height:wrap;
-  width:0px;
-  height:wrap;
-  background:grey;
-  transition: width 0.5s;
-  color:transparent;
-
-}
 
 .Program-button {
   position: absolute;
   font-family:Roboto;
-  font-weight: bold;
   font-size:40px;
-  left:84%;
-  bottom:35%;
+  bottom: 470px;
+  left: 250px;
   height:wrap;
   width:0px;
   height:wrap;
-  background: grey;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
   transition: width 0.5s;
   color:transparent;
+}
 
+.Hobby-button {
+  font-family: Roboto;
+  position:absolute;
+  font-size:40px;
+  left:250px;
+  bottom: 410px;
+  width:0px;
+  height:wrap;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
+  transition: width 0.5s;
+  color:transparent;
+}
+
+.Interest-button {
+  position:absolute;
+  font-family: Roboto;
+  font-size:40px;
+  left:250px;
+  bottom:350px;
+  width:0px;
+  height:wrap;
+  width:0px;
+  height:wrap;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
+  transition: width 0.5s;
+  color:transparent;
 }
 
 .Linkedin-button {
   position: absolute;
   font-family:Roboto;
-  font-weight: bold;
   font-size:40px;
-  left:84%;
-  bottom:25%;
+  bottom: 290px;
+  left: 250px;
   width:0px;
   height:wrap;
-  background:grey;
-  transition: width 0.5s;
-  color:transparent;
-}
-.Home-button {
-  position: absolute;
-  font-family:Roboto;
-  font-weight: bold;
-  font-size:40px;
-  left:84%;
-  bottom:15%;
-  width:0px;
-  height:wrap;
-  background:grey;
+  border-radius: 400px ;
+  border-color: #00FF00;
+  background:rgb(0, 118, 126);
   transition: width 0.5s;
   color:transparent;
 }
 .Program {
   font-family: Roboto;
-  color: black;
+  color:black; 
   position: absolute;
-  font-size: 60px;
-  bottom: 3%;
-  left:27%;
+  font-size: 35px;
+  bottom: 350px;
+  left:610px;
 }
 
 
@@ -221,53 +199,50 @@
   font-family: Roboto;
   color:black;
   position: absolute;
-  bottom:20%;
+  top:730px;
   width:500px;  
-  left:15%;
+  left:290px;
 }
 .Interest {
   font-family:Roboto;
   color:black;
   position: absolute;
-  bottom:20%;
+  top:730px;
   width:500px;  
-  left:50%;
+  left:750px;
+
 }
 
 
-.Instruction {
-  font-family: Roboto;
-  color:black;
-  position: absolute;
-  top:20%;
-  width:15%;  
-  left:38%;
-}
 .Pfp {
-  height: 30%;
+  height: 250px;
   position: absolute;
-  top: 20%;
-  width: 25%;
-  left:33%;
-  border: 4px solid black;  
+  top: 200px;
+  width: 200px;
+  left:670px;
+  border: 4px solid #560319;  
 }
 
-.Krish-App-header {
-  background-color: transparent;
-  min-height: 100vh;
+.Linkedin-box {
+  display: inline-block;
+  position:absolute;
+  width: 230px;
+  height: 1100px;
+  top:0px;
+  border-right: 10px double rgba(0, 0, 0, .2);
+  background: #43C6DB;
+  left:1300px;
+
+}
+
+.App-header {
+  background-color: #C2DFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.Texture {
-  
-  top:0%;
-  bottom:0%;
-  zoom:100%;
 }
 
 
