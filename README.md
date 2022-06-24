@@ -1,4 +1,4 @@
-# Group 198 Skills Assignment 
+# Group 198 Skills Assignment: Front-End
 
 This is an interactive webpage that has a brief introduction of each of the members in group 198 of the WEA Manulife stream.
 
