@@ -1,4 +1,4 @@
-.App {
+.Taeyun-App {
   text-align:center;
   text-align:center;  
   width: 100%;
@@ -11,7 +11,7 @@
   src: url(../public/fonts/Roboto-Thin.ttf);
 
 }
-.Name {
+.Taeyun-Name {
   font-family:Roboto;
   color:black;
   font-size: 70px;
@@ -20,7 +20,7 @@
   left:600px;
   
 }
-.School {
+.Taeyun-School {
   font-family:Roboto;
   color:black; 
   position: absolute;
@@ -28,14 +28,14 @@
   bottom: 400px;
   left:550px;
 }
-.School-logo {
+.Taeyun-School-logo {
   position: absolute;
   width:400px;
   left: 570px;
   bottom:180px;
   
 }
-.Linkedin-qr {
+.Taeyun-Linkedin-qr {
   position:absolute;
   width:150px;
   height:150px;
@@ -52,29 +52,30 @@
   color: rgb(254, 254, 254);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
-.Name-button:hover {
+.Taeyun-Name-button:hover {
   width: 200px;
 }
-.Photo-button:hover {
+.Taeyun-Photo-button:hover {
   width: 200px;
 }
-.School-button:hover {
+.Taeyun-School-button:hover {
   width: 200px;
 }
-.Hobby-button:hover {
+.Taeyun-Hobby-button:hover {
   width: 200px;
 }
-.Interest-button:hover {
+.Taeyun-Interest-button:hover {
   width: 200px;
 }
-.Program-button:hover {
+.Taeyun-Program-button:hover {
   width: 200px;
 }
-.Linkedin-button:hover {
+.Taeyun-Linkedin-button:hover {
   width: 200px;
 }
 
-.Name-button {
+.Taeyun-Name-button {
+  font-weight: bold;
   position:absolute;
   font-family:Roboto;
   font-size:40px;
@@ -90,7 +91,8 @@
 }
 
 
-.Photo-button {
+.Taeyun-Photo-button {
+  font-weight: bold;
   font-family: Roboto;
   position: absolute;
   font-size:40px;
@@ -106,7 +108,8 @@
   transition: width 0.5s;
   color:transparent;
 }
-.School-button {
+.Taeyun-School-button {
+  font-weight: bold;
   font-family: Roboto;
   position:absolute;
   font-size:40px;
@@ -123,7 +126,8 @@
 }
 
 
-.Program-button {
+.Taeyun-Program-button {
+  font-weight: bold;
   position: absolute;
   font-family:Roboto;
   font-size:40px;
@@ -139,10 +143,11 @@
   color:transparent;
 }
 
-.Hobby-button {
+.Taeyun-Hobby-button {
   font-family: Roboto;
   position:absolute;
   font-size:40px;
+  font-weight: bold;
   left:250px;
   bottom: 410px;
   width:0px;
@@ -154,7 +159,8 @@
   color:transparent;
 }
 
-.Interest-button {
+.Taeyun-Interest-button {
+  font-weight: bold;
   position:absolute;
   font-family: Roboto;
   font-size:40px;
@@ -171,7 +177,8 @@
   color:transparent;
 }
 
-.Linkedin-button {
+.Taeyun-Linkedin-button {
+  font-weight: bold;
   position: absolute;
   font-family:Roboto;
   font-size:40px;
@@ -185,7 +192,7 @@
   transition: width 0.5s;
   color:transparent;
 }
-.Program {
+.Taeyun-Program {
   font-family: Roboto;
   color:black; 
   position: absolute;
@@ -195,26 +202,26 @@
 }
 
 
-.Hobbies {
+.Taeyun-Hobbies {
   font-family: Roboto;
   color:black;
   position: absolute;
   top:730px;
   width:500px;  
-  left:290px;
+  left:490px;
 }
-.Interest {
+.Taeyun-Interest {
   font-family:Roboto;
   color:black;
   position: absolute;
   top:730px;
   width:500px;  
-  left:750px;
+  left:870px;
 
 }
 
 
-.Pfp {
+.Taeyun-Pfp {
   height: 250px;
   position: absolute;
   top: 200px;
@@ -223,7 +230,7 @@
   border: 4px solid #560319;  
 }
 
-.Linkedin-box {
+.Taeyun-Linkedin-box {
   display: inline-block;
   position:absolute;
   width: 230px;
@@ -235,7 +242,7 @@
 
 }
 
-.App-header {
+.Taeyun-App-header {
   background-color: #C2DFFF;
   display: flex;
   flex-direction: column;

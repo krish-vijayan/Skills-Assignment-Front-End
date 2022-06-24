@@ -16,8 +16,8 @@ function Name() {
     }
    return (
     <div>
-    <button className="glow-button Name-button" onClick={settingName}>Name</button>
-        <h1 class="Name">{name}</h1>
+    <button className="glow-button Taeyun-Name-button" onClick={settingName}>Name</button>
+        <h1 class="Taeyun-Name">{name}</h1>
    </div>
    );
 }
@@ -30,7 +30,7 @@ function Pfp() {
 
      const settingPfp = () => {
         setPfp(taeyun.pfp);
-        setC1("Pfp")
+        setC1("Taeyun-Pfp")
         setCounter(counter + 1);
         if (counter > 0) {
             setCounter(0);
@@ -40,7 +40,7 @@ function Pfp() {
     }
     return (
         <div>
-            <button className="glow-button Photo-button" onClick={settingPfp}>Photo</button>
+            <button className="glow-button Taeyun-Photo-button" onClick={settingPfp}>Photo</button>
             <img className={c1} src={pfp}/>
         </div>
    );
@@ -65,9 +65,9 @@ function MySchool(){
     }
     return (
         <div>
-            <button className=" glow-button School-button" onClick={settingSchool}>School</button>
-            <h1 className="School">{school}</h1>
-            <img src={logo} className="School-logo"/>
+            <button className=" glow-button Taeyun-School-button" onClick={settingSchool}>School</button>
+            <h1 className="Taeyun-School">{school}</h1>
+            <img src={logo} className="Taeyun-School-logo"/>
         </div>
    );
 }
@@ -87,8 +87,8 @@ function Program(){
     }
     return (
         <div>
-            <button className=" glow-button Program-button" onClick={settingProgram}>Program</button>
-            <h1 className="Program">{program}</h1>
+            <button className=" glow-button Taeyun-Program-button" onClick={settingProgram}>Program</button>
+            <h1 className="Taeyun-Program">{program}</h1>
         </div>
     );
 }
@@ -108,8 +108,8 @@ function Hobbies(){
     
     return (
         <div>           
-            <button className=" glow-button Hobby-button" onClick={settingHobby}>Hobby#{counter}</button>
-            <h1 className="Hobbies">{hobby}</h1>
+            <button className=" glow-button Taeyun-Hobby-button" onClick={settingHobby}>Hobby#{counter}</button>
+            <h1 className="Taeyun-Hobbies">{hobby}</h1>
         </div>
     );
 }
@@ -130,8 +130,8 @@ function Interests(){
     
     return (
         <div>           
-            <button className=" glow-button Interest-button" onClick={settingInterest}>Interest#{counter}</button>
-            <h1 className="Interest">{interest}</h1>
+            <button className=" glow-button Taeyun-Interest-button" onClick={settingInterest}>Interest#{counter}</button>
+            <h1 className="Taeyun-Interest">{interest}</h1>
         </div>
     );
 }
@@ -148,7 +148,7 @@ function Linkedin(){
         setLinkedin(taeyun.qr);
         setLink(taeyun.link);
         setCounter(counter + 1);
-        setC1("Linkedin-qr");
+        setC1("Taeyun-Linkedin-qr");
        
 
         if (counter > 0){
@@ -160,8 +160,8 @@ function Linkedin(){
     }
     return (
     <div>
-        <div className="Linkedin-box"></div>
-        <button className="glow-button Linkedin-button" onClick={settingLinkedin}>Linkedin</button>
+        <div className="Taeyun-Linkedin-box"></div>
+        <button className="glow-button Taeyun-Linkedin-button" onClick={settingLinkedin}>Linkedin</button>
         <a target="_blank" href={link}>
             <img src={linkedin} className={c1}/>
         </a>
