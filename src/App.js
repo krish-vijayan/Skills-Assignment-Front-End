@@ -3,25 +3,17 @@ import KrishApp from './krish-app'; //Includes title page
 /////////////////////////////////////////////////////////////////
 //Brandon
 import BrandonApp from './brandon-app';
-
 ////////////////////////////////////////////////////////////////
 //Serena
 import SerenaApp from './serena-app';
-
 ////////////////////////////////////////////////////////////////
 //Taeyun
 import TaeyunApp from './taeyun-app';
 ///////////////////////////////////////////////////////////////
 //Parsh
-
+import ParshApp from './parsh-app';
 ///////////////////////////////////////////////////////////////
-
-import {
-  BrowserRouter as Router, 
-  Routes,
-  Route,
-  } from 'react-router-dom';
-  
+ 
 function App() {
   return (
       <>
@@ -29,7 +21,7 @@ function App() {
       <BrandonApp/>
       <SerenaApp/>
       <TaeyunApp/>
-
+      <ParshApp/>
     </>
     
     
